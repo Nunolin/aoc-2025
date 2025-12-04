@@ -10,7 +10,6 @@ int main(){
 
     long res = 0;
     while(cin >> s){
-        // get the biggest element
         int biggest = INT_MIN;
         
         for (int i = 0; i < s.length()-1; i++) {
